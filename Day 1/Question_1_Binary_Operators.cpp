@@ -28,7 +28,10 @@ using namespace std;
 
 int main() {
     int a, b;
-    cin >> a >> b;
+    cout<<"Enter A : ";
+    cin >> a;
+    cout<<"Enter B : ";
+    cin >> b; 
 
     cout << "Bitwise AND: " << (a & b) << endl;
     cout << "Bitwise OR: " << (a | b) << endl;
